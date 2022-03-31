@@ -1,0 +1,11 @@
+@import '../colors';
+
+.btn {
+    color: $btn-color;
+    height: $btn-height;
+
+    & > &-primary {
+        color: blue;
+        background-color: ghostwhite;
+    }
+}
